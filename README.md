@@ -2,6 +2,21 @@
 
 ## Project: S3 and Lambda
 
+## Feature Tasks
+
+- A user should be able to upload an image at any size, and have both the original size and a thumbnail size.
+- When an image is uploaded to your S3 bucket, it should trigger a Lambda function that does the following:
+  - creates a 50 x 50 pixel thumbnail version of the image;
+  - saves it to another S3 bucket with a predictable naming convention, so that your server and/or frontend may know where that thumbnail image resides.
+
+## Details
+
+### How to use this lambda
+
+### Issues encountered during deployment of this lambda
+
+### The image and thumbnail that this Lambda processed
+
 ### Author: Nathan Cox
 
 ### Contributors
