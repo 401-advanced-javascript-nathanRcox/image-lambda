@@ -13,9 +13,19 @@
 
 ### How to use this lambda
 
+- Add a .jpg to the source bucket in the S3 dashboard of AWS.
+- Open the target bucket to verify the presence and size of the resized photo. (One may also download the resized photo after clicking on its link and choosing download from the dropdown under "object actions.")
+- View the logs for verification of a successful resizing.
+
 ### Issues encountered during deployment of this lambda
 
+- No issues to speak of: the tutorial was very thorough.
+- I'd not at this point be able to repeat this activity without the tutorial, nor do I know yet how to implement this service into a project.
+
 ### The image and thumbnail that this Lambda processed
+
+![Original Image](./assets/sasha.jpg)
+![Resized Image](./assets/resized-sasha.jpg)
 
 ### Author: Nathan Cox
 
@@ -29,6 +39,7 @@
 - [CI/CD]()
 - [Front-end Application]()
 <!-- - [Back-end Server URL](http://xyz.com) (when applicable) -->
+- [AWS Tutorial: Using AWS Lambda with Amazon S3](https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html)
 
 ### Setup
 
